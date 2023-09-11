@@ -1,0 +1,16 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    /* background-color: rgba(30, 30, 30, 0.331); */
+   
+    
+}
+body{
+    box-sizing: border-box;
+   
+}
+.main{
+    display: flex;
+    flex-direction: column; 
+}

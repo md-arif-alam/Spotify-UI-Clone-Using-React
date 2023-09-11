@@ -1,0 +1,49 @@
+.card1-container{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    padding-top: 12px;
+    border-radius: 10px;
+    border: none;
+    gap: 20px;
+}
+.cover1-img{
+    width: 190px;
+    height: 180px;
+    border-radius: 10px;
+    border: none;
+}
+.play1{
+   width: 60px;
+   height: 60px;
+}
+.cov-con{
+    position: relative;
+}
+.play-con{
+    position: absolute;
+    padding-left: 125px;
+    padding-top: 110px;
+    opacity: 0;
+}
+.card1-container:hover{
+    background-color: rgb(100, 100, 100);
+    transition: 0.4s ease;
+}
+.card1-container:hover .play-con{
+    opacity: 1;
+    transition: 0.4s ease;
+}
+.title{
+    font-size: medium;
+    font-weight: 600;
+}
+.cap{
+    color: rgb(169, 169, 169);
+    font-size: 16px;
+}
